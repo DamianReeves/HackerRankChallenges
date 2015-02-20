@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="TheLonelyInteger.fs" />
     <Compile Include="SolveMeSecond.fs" />
+    <Compile Include="FlippingBits.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
   </ItemGroup>
