@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpKatas", "FSharpKatas\FSharpKatas.fsproj", "{A852D67D-94FA-447A-AE1A-CE978B0CB218}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HackerRankChallengesInFsharp", "HackerRankChallengesInFsharp\HackerRankChallengesInFsharp.fsproj", "{A852D67D-94FA-447A-AE1A-CE978B0CB218}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
