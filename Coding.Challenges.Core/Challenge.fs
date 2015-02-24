@@ -4,6 +4,12 @@ type IChallenge =
     abstract member Name:string with get
     abstract member Run : string []->unit
 
+type Challenge = 
+    { Name:string
+      Run: string[] -> unit }
+    interface IChallenge with
+        member this.Name = this.Name
+        member this.Run argv = this.Run argv         
 
 type ChallengeRepository(challenges:IChallenge list) =    
     let challengeMap = 
@@ -29,6 +35,9 @@ type ChallengeRunner(repository) =
 
 [<AutoOpen>]
 module Challenges =
+    let createChallenge name run =
+        {Name=name;Run=run}
+
     let create (challengeList:IChallenge list) =
         new ChallengeRunner(challengeList)
 

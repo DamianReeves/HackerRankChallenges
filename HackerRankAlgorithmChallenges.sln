@@ -7,6 +7,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HackerRankChallengesInFshar
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MyCodingChallenges", "MyCodingChallenges\MyCodingChallenges.fsproj", "{88284843-A9FA-4936-9B87-B809C5E648BD}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Coding.Challenges.Core", "Coding.Challenges.Core\Coding.Challenges.Core.fsproj", "{0E1029CD-57F7-4824-8B8D-3475888749DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{88284843-A9FA-4936-9B87-B809C5E648BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88284843-A9FA-4936-9B87-B809C5E648BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88284843-A9FA-4936-9B87-B809C5E648BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E1029CD-57F7-4824-8B8D-3475888749DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E1029CD-57F7-4824-8B8D-3475888749DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E1029CD-57F7-4824-8B8D-3475888749DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E1029CD-57F7-4824-8B8D-3475888749DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
